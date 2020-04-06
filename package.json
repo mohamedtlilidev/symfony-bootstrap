@@ -4,5 +4,8 @@
     "gulp": "^3.9.1",
     "jquery": "~3.2.1",
     "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1"
   }
 }
