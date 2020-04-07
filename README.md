@@ -1,11 +1,11 @@
-Symfony 4 Bootstrap 4 starter template
+Symfony 4 Bootstrap
 ======================================
 
 Installation
 ------------
 
 ```bash
-$ git clone https://github.com/leettastic/symfony-bootstrap
+$ git clone https://github.com/mohamedtlilidev/symfony-bootstrap.git
 $ cd symfony-bootstrap
 $ composer install
 $ npm install
