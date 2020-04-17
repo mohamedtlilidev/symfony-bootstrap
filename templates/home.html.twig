@@ -1,0 +1,81 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <!--top-Header-menu-->
+    <div id="user-nav" class="navbar topnav navbar-inverse" style="background-color: #000">
+        <ul class="nav">
+            <li class='desktop-menu'>
+                <a title="" href="#">
+                    <i class="icon icon-user"></i>
+                    <span class="text">{{userName}}</span>
+                </a>
+            </li>
+            <br>
+            <li class="desktop-menu dropdown" id="menu-messages">
+                <a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle">
+                    <i class="icon icon-envelope"></i>
+                    <span class="text">langues</span>
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a>français</a>
+                    </li>
+                    <li>
+                        <a>anglais</a>
+                    </li>
+                </ul>
+            </li>
+            <li class='desktop-menu'>
+                <a title="" href="">
+                    <i class="icon icon-share-alt"></i>
+                    <span class="text">deconnecter</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <!--close-top-Header-menu-->
+
+    <div id="sidebar" style="background-color:rgb(195, 9, 34);">
+        <ul class="nav">
+            <li>
+                <a>
+                    <i class="icon icon-list"></i>
+                    <span>Mes actions</span>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="icon icon-folder-close"></i>
+                    <span>Mes demandes</span>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="icon icon-inbox"></i>
+                    <span>En copie</span>
+                </a>
+            </li>
+            <li class="li_right">
+                <a>
+                    <i class="icon icon-search"></i>
+                    <span>Historique et recherche</span>
+                </a>
+            </li>
+            <li class="li_right">
+                <a>
+                    <i class="icon icon-search"></i>
+                    <span>Reporting</span>
+                </a>
+            </li>
+            <li class="li_right">
+                <a>
+                    <i class="icon icon-cog"></i>
+                    <span>Paramétrage</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+{% endblock %}

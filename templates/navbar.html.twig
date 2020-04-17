@@ -1,0 +1,87 @@
+    <!--Header-part-->
+    <div id="header">
+        <span class="img-responsive" alt="Responsive image"></span>
+    </div>
+
+    <!--top-Header-menu-->
+    <div id="user-nav" class="navbar topnav navbar-inverse">
+        <ul class="nav">
+            <li class='desktop-menu'>
+                <a title="" href="#">
+                    <i class="icon icon-user"></i>
+                    <span class="text">{{ userName }}</span>
+                </a>
+            </li>
+            <li class="desktop-menu dropdown" id="menu-messages">
+                <a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle">
+                    <i class="icon icon-envelope"></i>
+                    <span class="text">Langues</span>
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a  class="dropdown-item" title="">Français</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" title="">Anglais</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class='desktop-menu'>
+                <a title="" href="{{ path ('logout') }}">
+                    <i class="icon icon-share-alt"></i>
+                    <span class="text">Déconnecter</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <!--close-top-Header-menu-->
+
+    <div id="sidebar">
+        <ul class="nav">
+            <li>
+                <a>
+                    <i class="icon icon-list"></i>
+                    <span>Mes actions</span>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="icon icon-folder-close"></i>
+                    <span>Mes demandes</span>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="icon icon-inbox"></i>
+                    <span>En copie</span>
+                </a>
+            </li>
+            <li class="li_right">
+                <a>
+                    <i class="icon icon-cog"></i>
+                    <span>Paramétrage</span>
+                </a>
+            </li>
+
+            <li class="li_right">
+                <a title="" href="{{ path ('reporting') }}">
+                    <i class="icon fas fa-file"></i>
+                    <span>Reporting</span>
+                </a>
+            </li>
+            <li class="li_right">
+                <a>
+                    <i class="icon icon-search"></i>
+                    <span>Historique et recherche</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="btn-group btn-group-vertical"></div>
+    <br>
+

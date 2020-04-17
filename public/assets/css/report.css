@@ -1,0 +1,194 @@
+#content {
+    margin-left: 0px;
+    margin-right: 0;
+    margin-top: 35px;
+    padding-bottom: 25px;
+    position: relative;
+    min-height: 100%;
+    width: auto;
+}
+#content-header {
+    width: 100%;
+}
+#content-header h1 {
+    color: #000000c4;
+    font-size: 28px;
+    font-weight: normal;
+    float: none;
+    text-shadow: 0 1px 0 #ffffff;
+    margin-left: 20px;
+    position: relative;
+}
+#content-header p
+{
+    margin: 0 0 10px 20px;
+    color: #555;
+}
+.container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+    *zoom: 1;
+    margin-top: 20px;
+}
+
+.styleTitle {
+    font-weight: 600;
+    font-family: 'Titillium Web',sans-serif;
+    position: relative;
+    text-shadow: 0 -1px 1px rgba(0,0,0,.4);
+    font-size: 22px;
+    line-height: 55px;
+    color: #355681;
+    border-bottom: 2px solid rgba(53,86,129,.3);
+}
+.widget-title, .modal-header, .table th, div.dataTables_wrapper .ui-widget-header {
+
+    background-color: #e4e3e3;
+    border-bottom: 1px solid #CDCDCD;
+
+}
+.widget-title span.icon {
+
+    border-right: 1px solid #cdcdcd;
+    padding: 9px 10px 7px 11px;
+    float: left;
+    opacity: .7;
+
+}
+[class^="icon-"], [class*=" icon-"] {
+
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    *margin-right: .3em;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../img/glyphicons-halflings2.png");
+    background-repeat: no-repeat;
+
+}
+.icon-th {
+
+    background-position: -240px 0;
+
+}
+.widget-title h5 {
+
+    color: #666666;
+    text-shadow: 0 1px 0 #ffffff;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    line-height: 12px;
+    margin: 0;
+
+}
+.widget-title h5 a
+{
+    border-bottom: 2px solid #555;
+}
+.bloc_request_rapport {
+
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    display: inline;
+
+}
+.bloc_gauche {
+
+    border: 2px solid #cccccc;
+    width: 45%;
+    height: auto;
+    margin: 20px;
+    float: left;
+    min-height: 300px;
+    display: block;
+
+}
+.bloc_droite {
+
+    border: 2px solid #cccccc;
+    width: 45%;
+    height: auto;
+    margin: 20px;
+    float: left;
+    min-height: 300px;
+
+}
+.bloc_gauche h7, .bloc_droite h7 {
+    margin: 10px;
+}
+.bloc_gauche .btn.btn-primary.btnrequest{
+
+    background: #347cbb8a!important;
+    margin: 10px;
+    color: #000;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 7px;
+    line-height: 10px;
+    width: auto;
+    text-align: center;
+    display: table;
+    cursor: pointer;
+    box-shadow: 8px 8px 12px #f2f2f2;
+    border-color: #ccc;
+}
+.bloc_gauche a {
+    font-size: 15px;
+    color: #1212b7;
+    margin: 15px;
+    border-bottom: 1px solid #1212b7;
+    float: left;
+    line-height: 20px;
+}
+
+.table_request {
+    margin-top: 5px;
+    width: 100%;
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 5px 70px;
+}
+.telecharger a {
+    font-size: 15px;
+    padding: 2px 15px;
+    margin: 5px 15px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.table_request .table th {
+    font-size: 12px !important;
+}
+
+.lienFixe {
+    display: inline;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.telecharger {
+
+    float: left;
+    display: inline;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 5px auto;
+
+}
+.table_request .table td, .table_request .table th {
+    text-align: left !important;
+
+}
+#datatableProcess_info {
+    display: none;
+}
+.table_request .page-link {
+    font-size: 12px;
+}

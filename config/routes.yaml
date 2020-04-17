@@ -1,5 +1,10 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
 index:
-    path:         /
-    controller:   Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
-    defaults:
-        template: index.html.twig
+    path: /
+    controller: App\Controller\HomeController::index
+#logout:
+#    path: /logout
+#    success_handler: PRayno\CasAuthBundle\Event\LogoutSuccessHandler
